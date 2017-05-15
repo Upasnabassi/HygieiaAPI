@@ -13,7 +13,7 @@ ENV SPRING_DATA_MONGODB_PASSWORD=dbpass
 
 RUN mkdir /hygieia
 
-COPY target/api.jar /hygieia
+COPY target/api.jar /hygieia/
 COPY properties-builder.sh /hygieia/
 
 
